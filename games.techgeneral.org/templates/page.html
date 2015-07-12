@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}{{ super() }} : {{ page.title }}{% endblock %}
+{% block content %}        
+
+<header>
+    <h1><a href="{{ url_for('index') }}" id="site-title">{{ site.name }} {% if site.subtitle %} <strong>{{ site.subtitle }}</strong>{% endif %}</a> :
+        <a href="{{ url_for('page', path=page.path) }}" id="page-title">{{ page.title }}</a></h1>
+    <time datetime="{{ page.date.isoformat() }}Z">{{ page.date.isoformat() }}Z</time>
+</header>
+
+<article>
+    {{ page.html|safe }}
+</article>
+
+<comments>
+
+<div id="fb-root"></div>
+<div class="fb-comments" data-href="{{ site.url }}{{ url_for('page', path=page.path) }}" data-width="750" data-order-by="time" data-num-posts="50" data-colorscheme="light"></div>
+
+</comments>
+{% endblock %}

@@ -1,0 +1,9 @@
+.DS_Store
+*.pyc
+*.egg-info
+.webassets-cache
+cache_*
+/build
+/activate
+/.env
+/.awscredentials

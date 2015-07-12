@@ -1,0 +1,4 @@
+set switchbuf=useopen,split
+set splitright
+let NERDTreeShowHidden=0
+let NERDTreeDirArrows=1
