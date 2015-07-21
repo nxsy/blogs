@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}        
+
+<header>
+  <h1><a href="{{ url_for('index') }}" id="site-title">{{ site.name }} {% if site.subtitle %} <strong>{{ site.subtitle }}</strong>{% endif %}</a></h1>
+</header>
+
+<section id="article-list">
+
+<table class="posts">
+{% for dd, page in pages|datedposts %}
+<tr>
+<td class="year  {{ "y%d" % dd.firsty }}" rowspan="2">{{ "%04d" % dd.year  }}</td>
+<td class="month {{ "m%d" % dd.firstm }}" rowspan="2">{{ "%02d" % dd.month }}</td>
+<td class="day   {{ "d%d" % dd.firstd }}" rowspan="2">{{ "%02d" % dd.day   }}</td>
+<td class="post">
+<a class="post" href="{{ url_for('page', path=page.path) }}">{{ page.title }}</a>
+</td>
+</tr>
+<tr>
+<td class="description">
+{{ page.meta.description }}
+</td>
+</tr>
+
+{% endfor %}
+</table>
+
+</section>
+{% endblock content %}
