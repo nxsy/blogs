@@ -132,13 +132,13 @@ grid of 600x600px images.
 
 Having almost no design or image editing skills, I came up with:
 
-![Dice texture](http://play-static.techgeneral.org/2014/01/20140104-dice-texture-750.png)
+![Dice texture](https://play-static.techgeneral.org/2014/01/20140104-dice-texture-750.png)
 
 As a hint, I ended up setting guide rules at the center of each image to make
 moving the die faces to exactly the right place.  I then made the die images in
 a separate 600x600 window and moved them to this one.
 
-![Making the texture](http://play-static.techgeneral.org/2014/01/20140104-making_the_texture-750.jpg)
+![Making the texture](https://play-static.techgeneral.org/2014/01/20140104-making_the_texture-750.jpg)
 
 ## DiceFace class ##
 

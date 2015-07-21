@@ -20,7 +20,7 @@ dimensions of the objects being displayed.
 
 ## Before perspective ##
 
-![Before perspective](http://play-static.techgeneral.org/2013/12/20131214-before-perspective.jpg)
+![Before perspective](https://play-static.techgeneral.org/2013/12/20131214-before-perspective.jpg)
 
 The image above shows nine cubes, which are defined as being sized from -1 to 1
 in each dimension (x, y, z).  One immediately obvious problem here is that they
@@ -36,7 +36,7 @@ the top sides of the bottom-most cubes and vice versa.
 
 ## After perspective ##
 
-![After perspective](http://play-static.techgeneral.org/2013/12/20131214-after-perspective.jpg)
+![After perspective](https://play-static.techgeneral.org/2013/12/20131214-after-perspective.jpg)
 
 This is something closer to what it should look like.  The closer cubes are
 larger, and the further away ones are smaller.  The further to the edges the

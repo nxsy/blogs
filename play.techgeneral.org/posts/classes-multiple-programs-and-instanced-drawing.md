@@ -22,7 +22,7 @@ these two sets of objects I'm describing in this post, in case you missed it:
 <div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
 <div class="fb-post" data-href="https://www.facebook.com/photo.php?v=560037190746166" data-width="750"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/photo.php?v=560037190746166">Post</a> by <a href="https://www.facebook.com/play.TechGeneral">play.TechGeneral</a>.</div></div>
 
-[previous post]: http://play.techgeneral.org/mixins-and-other-code-generation.html
+[previous post]: https://play.techgeneral.org/mixins-and-other-code-generation.html
 
 ## OpenGL wrapper ##
 
@@ -536,7 +536,7 @@ of cubes.
 
 ## Putting it together ##
 
-![Rainbow Cubes and Chess Board](http://play-static.techgeneral.org/2014/01/20140102-holy-moire-pattern-batman-750.jpg)
+![Rainbow Cubes and Chess Board](https://play-static.techgeneral.org/2014/01/20140102-holy-moire-pattern-batman-750.jpg)
 
 [Here][commit1] is the commit that creates the classes that wrap the
 glBindBuffer and glBufferData calls and implements ChessCube.  In the [next

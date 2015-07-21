@@ -18,7 +18,7 @@ location - a trivial example being which colour to draw the vertex as.
 
 ## Why can I see that line? ##
 
-![Last weeks' demo](http://play-static.techgeneral.org/2013/12/20131219-previous-demo-nodepth-750.jpg)
+![Last weeks' demo](https://play-static.techgeneral.org/2013/12/20131219-previous-demo-nodepth-750.jpg)
 
 You may have noticed that in the previous demo when borders were added to the
 tetrahedron, you could see the borders even if they should be "behind" the
@@ -138,7 +138,7 @@ old hardcoding line that was `Color = vec3(1, 0, 0)` before.
 
 This looks kinda interesting when rendered before the rotation kicks in:
 
-![The multi-coloured tetrahedron](http://play-static.techgeneral.org/20131219-multi-coloured-tetrahedron-750.jpg)
+![The multi-coloured tetrahedron](https://play-static.techgeneral.org/20131219-multi-coloured-tetrahedron-750.jpg)
 
 [Here][commit1] is the state of the code repo at this point.
 
@@ -149,7 +149,7 @@ not getting each face drawn properly - instead some faces that should be
 "behind" are being drawn over the faces that are actually in "front", much like
 the lines from the last demo.
 
-![The multi-coloured tetrahedron with no depth test](http://play-static.techgeneral.org/2013/12/20131219-multi-coloured-tetrahedron-nodepth-750.jpg)
+![The multi-coloured tetrahedron with no depth test](https://play-static.techgeneral.org/2013/12/20131219-multi-coloured-tetrahedron-nodepth-750.jpg)
 
 The depth buffer can help us avoid this.  It associates a depth value with
 every pixel location, and will only replace the pixel at a location if the new
@@ -177,7 +177,7 @@ with `glClear`, just add the `GL_DEPTH_BUFFER_BIT` to the clear, like so:
 
 The end result:
 
-![The multi-coloured tetrahedron with depth test](http://play-static.techgeneral.org/2013/12/20131219-multi-coloured-tetrahedron-depth-750.jpg)
+![The multi-coloured tetrahedron with depth test](https://play-static.techgeneral.org/2013/12/20131219-multi-coloured-tetrahedron-depth-750.jpg)
 
 ## Putting it together ##
 
