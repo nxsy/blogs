@@ -1,0 +1,168 @@
+body {
+  background: #fff;
+  color: #222;
+  max-width: 50em;
+  margin: 60px 14px 0 64px;
+
+  font-family: 'Proxima Nova','Open Sans',sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: normal;
+}
+
+header a#page-title {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: #666;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 15px;
+  padding-top: 10px;
+}
+
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+  color: #000000;
+}
+
+h4 {
+  color: #000000;
+  font-size: 9pt;
+}
+
+time {
+  color: #c0c0c0;
+  font-size: 50%;
+}
+
+img {
+  border: none;
+}
+
+blockquote {
+  border-left: 1px solid #A5ABAB;
+  margin: 0px;
+  padding: 0 12px 0 12px;
+}
+
+p {
+  line-height: 30px;
+  margin: 30px auto;
+  text-indent: 0px;
+}
+
+p.caption {
+  font-size: 80%;
+  margin-top: 0;
+}
+
+a {
+  border-bottom: #999 1px solid;
+  color: #303030;
+  text-decoration: none;
+}
+a:hover {
+  color: #999;
+}
+
+strong {
+  color: #555555;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+code {
+  font-family: 'Inconsolata',monospace,serif;
+  font-weight: normal;
+}
+
+tt, pre {
+  background-color: #f7fcff;
+  font-family: 'Inconsolata',monospace,serif;
+}
+
+pre {
+  overflow: auto;
+  font: lighter 12px/20px monospace;
+  border: 1px solid #7af;
+  border-left: 10px solid #7af;
+  padding: 12px;
+  margin-left: -22px; 
+}
+
+code {
+  background-color: #f0f7ff;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+header {
+  padding-bottom: 20px;
+}
+header a {
+  border-bottom: none;
+}
+
+
+
+
+#article-list {
+  margin-top: 100px;
+}
+#article-list ol li {
+  line-height: 1.2em;
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+#article-list .date {
+  font: 'Inconsolata', monospace;
+  color: #666;
+  font-size: 18px;
+}
+
+#article-list .title {
+  margin-left: 20px;
+  font: Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+table.posts td { padding-left: 0; padding-right: 0; margin: 0; border: 0}
+table.posts td.post { padding-left: 1em; }
+table.posts td.post a { color: #303030; font-weight: bold;}
+table.posts td.description { padding-left: 1.5em; color: #666; font-size: 13px; line-height: 21px; }
+table.posts td.year, table.posts td.month, table.posts td.day { font-family: Consolas, Menlo, Monaco, Andale Mono, Courier New, monospace; color: #666;}
+table.posts td.y1, table.posts td.m1, table.posts td.d1 { font-weight: bold; }
+
+footer {
+  background: #fff;
+  color: #666;
+  font-family: helvetica, sans-serif;
+  font-size: 13px;
+  letter-spacing: 4px;
+  margin-left: 20px;
+}
+footer a {
+  border-bottom: none;
+  color: #c0c0c0;
+}
+footer li {
+  display: inline;
+}
+footer p {
+  text-align: right;
+}

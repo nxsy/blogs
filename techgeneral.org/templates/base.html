@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>{% block title %}{{ site.name }}{%endblock%}</title>
+
+        {% for css_url in site.assets.main_css.urls() %}
+        <link rel="stylesheet" href="{{ css_url }}" type="text/css" />
+        {% endfor %}
+        {% block page_css %}{% endblock %}
+
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:800,400,300|Inconsolata' rel='stylesheet' type='text/css'>
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+                <meta property="fb:app_id" content="{{ site.fb_app_id }}"/>
+</head>
+
+<body>
+
+        {% block content %}
+        {% endblock %}
+
+        <footer>
+            <nav>
+                <ul>
+                {% for page in site.pages %}
+                    <li><a href="{{ page.url }}">{{ page.title }}</a>{% if not loop.last %} ::{% endif %}</li>
+                {% endfor %}
+                </ul>
+            </nav>
+        </footer>
+
+<script type="text/javascript">
+var clicky_site_ids = clicky_site_ids || [];
+clicky_site_ids.push(100788978);
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//static.getclicky.com/js';
+  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+})();
+</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100788978ns.gif" /></p></noscript>
+
+</body>
+</html>
