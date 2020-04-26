@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting up new Windows machine</title>
+      <link>http://example.org/pages/setting-up-a-new-windows-machine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/pages/setting-up-a-new-windows-machine/</guid>
+      <description>Install Windows  Disable all information sharing  Bootstrap apps Firefox  Install this first, so we can stop using Edge/IE immediately Settings  Home area  Homepage and new windows -&amp;gt; Blank Page New tabs -&amp;gt; Blank Page Home Content -&amp;gt; Empty   Search  Provide search suggestions -&amp;gt; off   Privacy &amp;amp; Security  Enhanced Tracking Protection -&amp;gt; Strict Permissions  Block new requests asking to access   Firefox Data Collection -&amp;gt; Disable all     Close and reopen to get it to make it the default program  Dropbox  Install and set up so 1password can be installed  1password  Set up Dropbox sync + then log into my.</description>
+    </item>
+    
+  </channel>
+</rss>
